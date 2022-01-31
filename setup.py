@@ -132,7 +132,7 @@ setup(
     zip_safe=False,
     entry_points={
         "console_scripts": [
-            "aat=aat:main",
+            "aat=aat.__main__:main",
             "aat-synthetic-server=aat.exchange.synthetic.server:main",
             "aat-view-strategy-results=aat.strategy.calculations:main",
         ]
