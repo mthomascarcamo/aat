@@ -62,11 +62,13 @@ requires_dev = [
     "mock>=3.0.5",
     "mypy>=0.782",
     "pybind11>=2.4.3",
+    "pylint",
     "pytest>=6.0.1",
     "pytest-cov>=2.8.1",
     "pytest-faulthandler>=2.0.1",
     "Sphinx>=1.8.4",
     "sphinx-markdown-builder>=0.5.2",
+    "tox",
     "types-pytz>=2021.1.2",
     "types-requests>=2.25.6",
 ] + requires

@@ -96,3 +96,6 @@ private_config
 _aat_BACKTEST*
 
 venv/
+
+# tox
+testdata/
